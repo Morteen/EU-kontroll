@@ -1,4 +1,108 @@
 <resources>
     <string name="app_name">NKK</string>
     <string name="action_settings">Settings</string>
+
+
+
+    <string-array name="merker">
+    <item>Velg et bilmerke</item>
+    <item>Opel</item>
+    <item>VW</item>
+    <item>Ford</item>
+    <item>Toyota</item>
+    <item>Subaru</item>
+    <item>Audi</item>
+    <item>KIA</item>
+    <item>Skoda</item>
+</string-array>
+
+
+    <string-array name="opel">
+        <item>Velg et modell</item>
+        <item>Adam</item>
+        <item>Amperea</item>
+        <item>Ascona</item>
+        <item>Astra</item>
+        <item>Insigna</item>
+        <item>Vektra</item>
+        <item>Meriva</item>
+        <item>Blitz</item>
+    </string-array>
+
+
+
+    <string-array name="vw">
+    <item>Velg et modell</item>
+    <item>Polo</item>
+    <item>UP-!</item>
+    <item>Passat</item>
+    <item>Golf</item>
+    <item>Sirocco</item>
+    <item>Jetta</item>
+    <item>Boble</item>
+    <item>Turan</item>
+    <item>Tiguan</item>
+</string-array>
+
+
+    <string-array name="ford">
+        <item>Velg et modell</item>
+        <item>Focus</item>
+        <item>Fiesta</item>
+        <item>Escort</item>
+        <item>GT-40</item>
+        <item>Mustang</item>
+    </string-array>
+
+    <string-array name="toyota">
+        <item>Velg et modell</item>
+        <item>Yaris</item>
+        <item>Prius</item>
+        <item>Avensis</item>
+        <item>Rav-4</item>
+        <item>Land-crusier</item>
+
+    </string-array>
+
+    <string-array name="subaru">
+        <item>Velg et modell</item>
+        <item>Impresa</item>
+        <item>Outback</item>
+        <item>XV</item>
+        <item>Forrester</item>
+        <item>Levorg</item>
+        <item>BZR</item>
+
+    </string-array>
+    <string-array name="audi">
+        <item>Velg et modell</item>
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a6</item>
+    </string-array>
+
+    <string-array name="kia">
+        <item>Velg et modell</item>
+        <item>Ceed</item>
+        <item>Rio</item>
+        <item>Picanto</item>
+        <item>Sportage</item>
+        <item>Sorento</item>
+        <item>Optima</item>
+    </string-array>
+
+    <string-array name="skoda">
+        <item>Velg et modell</item>
+        <item>Superb</item>
+        <item>Yeti</item>
+        <item>Octavia</item>
+        <item>Fabia</item>
+        <item>Citigo</item>
+        <item>Rapid</item>
+
+    </string-array>
+
+
 </resources>
