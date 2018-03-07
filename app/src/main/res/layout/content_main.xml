@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,26 +13,48 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.morten.nkk.MainActivity"
     tools:showIn="@layout/activity_main"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/contentMain">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Norsk kjøretøy kontroll"
-       android:gravity="center_horizontal" />
+       android:gravity="center_horizontal"
+        android:layout_margin="10dp"/>
 
-    <Spinner
-    android:id="@+id/bilmerkeSpinner"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:layout_editor_absoluteX="8dp"
-    tools:layout_editor_absoluteY="157dp" />
 
-    <Spinner
-        android:id="@+id/bilmodellSpinner"
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="157dp" />
+        android:text="Legg inn registrerings nummer "
+        />
+
+
+
+    <EditText
+        android:id="@+id/regnr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="NE 99999" />
+
+
+    <Button
+        android:id="@+id/submitRegNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ListView
+        android:id="@+id/bilmerkeListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
 
 </LinearLayout>
+</FrameLayout>

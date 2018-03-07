@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.morten.nkk.Vanligemangler"
+    android:background="@color/min_grey"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bilnavn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:text="Bil merke og modell"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+    <ListView
+        android:id="@+id/mangelListview"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>

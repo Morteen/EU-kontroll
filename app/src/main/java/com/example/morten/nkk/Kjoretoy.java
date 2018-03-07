@@ -9,7 +9,10 @@ import java.util.ArrayList;
 public class Kjoretoy {
     private String merke;
     private String modell;
-    private ArrayList<String>feil;
+    private ArrayList<Mangler>mangler;
+
+    public Kjoretoy() {
+    }
 
     public String getMerke() {
         return merke;
@@ -27,12 +30,12 @@ public class Kjoretoy {
         this.modell = modell;
     }
 
-    public ArrayList<String> getFeil() {
-        return feil;
+    public ArrayList<Mangler> getFeil() {
+        return mangler;
     }
 
-    public void setFeil(ArrayList<String> feil) {
-        this.feil = feil;
+    public void setFeil(ArrayList<Mangler> mangler) {
+        this.mangler = mangler;
     }
 
     public Kjoretoy(String merke) {
